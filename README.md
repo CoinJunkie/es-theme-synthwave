@@ -1,14 +1,4 @@
 # es-theme-synthwave
 Synth Wave theme by Coin Junkie based on Super Mario Bros theme based on motion blue
 
-░░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓▌█ very coin junkie
-░░░░░▄█▌▀▄▓▓▄▄▄▄▀▀▀▄▓▓▓▓▓▌█ 
-░░░▄█▀▀▄▓█▓▓▓▓▓▓▓▓▓▓▓▓▀░▓▌█ 
-░░█▀▄▓▓▓███▓▓▓███▓▓▓▄░░▄▓▐█▌ such retropie
-░█▌▓▓▓▀▀▓▓▓▓███▓▓▓▓▓▓▓▄▀▓▓▐█ 
-▐█▐██▐░▄▓▓▓▓▓▀▄░▀▓▓▓▓▓▓▓▓▓▌█▌ 
-█▌███▓▓▓▓▓▓▓▓▐░░▄▓▓███▓▓▓▄▀▐█ much amazing theme
-█▐█▓▀░░▀▓▓▓▓▓▓▓▓▓██████▓▓▓▓▐█ 
-▌▓▄▌▀░▀░▐▀█▄▓▓██████████▓▓▓▌█▌ 
-▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█▌ 
-█▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█ WoW
+'Bernard, Don't be a tuna head!' -Dave

@@ -1,0 +1,205 @@
+<!--
+theme name:     RetroWave         1.0
+author:         Coin Junkie upon Marioblue by James Durden
+
+based upon Motion Blue by David Marti - which based 
+upon CRT by Anthony - which is based upon Carbon by Eric
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <theme>
+	
+        <formatVersion>4</formatVersion>
+
+        <view name="system">
+		
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<pos>0.010 0.05</pos>
+				<size>1.0 0.2</size>
+				<color>FFFFFF00</color>
+				<logoScale>1.8</logoScale>
+				<logoSize>0.125 0.160</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+			</carousel>
+			
+			<text name="systemInfo">
+				<pos>0.40 0.62</pos>
+				<size>0.980 0.70</size>
+				<backgroundColor>FFFFFF00</backgroundColor>
+				<color>FD47D4</color>
+				<fontPath>./_inc/fonts/Lazer84.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+			</text>
+			
+            <image name="system-background" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <tile>false</tile>
+                <path>./_inc/images/backgroundmenu.png</path>
+            </image>
+			
+        </view>
+
+        <view name="system,basic,detailed,video">
+		
+            <helpsystem name="help">
+		<fontPath>./_inc/fonts/Lazer84.ttf</fontPath>
+                <fontSize>0.025</fontSize>
+                <textColor>FD47D4</textColor>
+                <iconColor>FD47D4</iconColor>
+            </helpsystem>
+			
+        </view>
+
+        <view name="basic,detailed,video">
+		
+            <image name="background">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <tile>false</tile>
+                <path>./_inc/images/background.png</path>
+            </image>
+			
+            <image name="logo">
+                <origin>0.5 0.5</origin>
+                <pos>0.82 0.875</pos>
+                <maxSize>0.15 0.05</maxSize>
+            </image>
+			
+            <textlist name="gamelist">
+                <pos>0.1875 0.175</pos>
+                <size>0.45 0.675</size>
+                <selectorColor>1c1c1c00</selectorColor>
+                <selectedColor>ed4eba</selectedColor>
+                <primaryColor>00f2ff</primaryColor>
+                <secondaryColor>c66c0b</secondaryColor>
+                <fontPath>./_inc/fonts/terminator.ttf</fontPath>
+                <fontSize>0.02</fontSize>
+                <forceUppercase>1</forceUppercase>
+                <scrollSound>./_inc/sounds/select.wav</scrollSound>
+                <alignment>center</alignment>
+            </textlist>
+			
+        </view>
+
+        <view name="basic">
+		
+            <image name="logo">
+                <origin>0.5 0.5</origin>
+                <pos>0.5 0.075</pos>
+                <maxSize>0.35 0.15</maxSize>
+            </image>
+	  
+            <textlist name="gamelist">
+                <pos>0.46 0.175</pos>
+                <size>0.3 0.7</size>
+                <alignment>left</alignment>
+            </textlist>
+			
+        </view>
+
+        <view name="detailed,video">
+		
+            <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+                <pos>1 1</pos>
+            </text>
+	  
+            <text name="md_description,md_lbl_players,md_players,md_genre,md_releasedate">
+                <color>777777</color>
+                <fontPath>./_inc/fonts/Super Plumber Brothers.ttf</fontPath>
+                <fontSize>0.0175</fontSize>
+            </text>
+	  
+            <rating name="md_rating">
+                <pos>0.1 1.575</pos>
+                <size>0 0.025</size>
+                <filledPath>./_inc/images/star_filled.svg</filledPath>
+                <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+            </rating>
+	  
+            <text name="md_description">
+                <pos>0.1 1.625</pos>
+                <size>0.4625 0.175</size>
+                <color>cccccc</color>
+            </text>
+	  
+            <text name="md_lbl_players">
+                <pos>0.1 1.825</pos>
+                <size>0.0625 0.025</size>
+            </text>
+	  
+            <text name="md_players">
+                <pos>0.15 1.825</pos>
+                <size>0.0375 0.025</size>
+            </text>
+	  
+            <datetime name="md_releasedate">
+                <pos>0.175 1.825</pos>
+                <size>0.075 0.025</size>
+            </datetime>
+	  
+            <text name="md_genre">
+                <pos>0.2625 1.825</pos>
+                <size>0.1 0.025</size>
+            </text>
+	  
+            <textlist name="gamelist">
+                <pos>0.01 0.175</pos>
+                <size>0.21 0.7</size>
+                <alignment>left</alignment>
+            </textlist>
+			
+        </view>
+
+        <view name="detailed">
+		
+            <image name="logo">
+                <origin>0.5 0.5</origin>
+                <pos>0.82 1.875</pos>
+                <maxSize>0.15 0.05</maxSize>
+            </image>
+	  
+            <image name="md_image">
+                <origin>.53 .54</origin>
+                <pos>0.47 0.62</pos>
+                <size>0.3 0.4</size>
+            </image>
+	  
+            <image name="md_marquee">
+                <pos>0.03 0.035</pos>
+                <origin>0 0</origin>
+                <maxSize>0.1 0.1</maxSize>
+            </image>
+	  
+        </view>
+
+        <view name="video">
+		
+            <image name="logo">
+                <origin>0.5 0.5</origin>
+                <pos>0.82 1.875</pos>
+                <maxSize>0.15 0.05</maxSize>
+            </image>
+		  
+            <video name="md_video">
+                <origin>0.5 0.5</origin>
+                <pos>0.465 0.6</pos>
+                <size>0.36 0.48</size>
+                <delay>0.01</delay>
+                <default>./_inc/videos/novid.mp4</default>
+                <showSnapshotNoVideo>false</showSnapshotNoVideo>
+                <showSnapshotDelay>false</showSnapshotDelay>
+            </video>
+		  
+            <image name="md_marquee">
+                <pos>0.03 0.035</pos>
+                <origin>0 0</origin>
+                <maxSize>0.1 0.1</maxSize>
+            </image>
+			
+        </view>
+   
+    </theme>

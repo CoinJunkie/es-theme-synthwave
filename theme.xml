@@ -6,7 +6,7 @@ based upon Motion Blue by David Marti - which based
 upon CRT by Anthony - which is based upon Carbon by Eric
 -->
 
-<?xml version="1.0" encoding="UTF-8"?>
+1<?xml version="1.0" encoding="UTF-8"?>
     <theme>
 	
         <formatVersion>4</formatVersion>
@@ -105,45 +105,6 @@ upon CRT by Anthony - which is based upon Carbon by Eric
 		
             <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
                 <pos>1 1</pos>
-            </text>
-	  
-            <text name="md_description,md_lbl_players,md_players,md_genre,md_releasedate">
-                <color>777777</color>
-                <fontPath>./_inc/fonts/Super Plumber Brothers.ttf</fontPath>
-                <fontSize>0.0175</fontSize>
-            </text>
-	  
-            <rating name="md_rating">
-                <pos>0.1 1.575</pos>
-                <size>0 0.025</size>
-                <filledPath>./_inc/images/star_filled.svg</filledPath>
-                <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
-            </rating>
-	  
-            <text name="md_description">
-                <pos>0.1 1.625</pos>
-                <size>0.4625 0.175</size>
-                <color>cccccc</color>
-            </text>
-	  
-            <text name="md_lbl_players">
-                <pos>0.1 1.825</pos>
-                <size>0.0625 0.025</size>
-            </text>
-	  
-            <text name="md_players">
-                <pos>0.15 1.825</pos>
-                <size>0.0375 0.025</size>
-            </text>
-	  
-            <datetime name="md_releasedate">
-                <pos>0.175 1.825</pos>
-                <size>0.075 0.025</size>
-            </datetime>
-	  
-            <text name="md_genre">
-                <pos>0.2625 1.825</pos>
-                <size>0.1 0.025</size>
             </text>
 	  
             <textlist name="gamelist">

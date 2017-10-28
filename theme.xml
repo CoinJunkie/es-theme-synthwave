@@ -94,9 +94,9 @@ upon CRT by Anthony - which is based upon Carbon by Eric
             </image>
 	  
             <textlist name="gamelist">
-                <pos>0.46 0.175</pos>
+		<pos>0.35 0.175</pos>
                 <size>0.3 0.7</size>
-                <alignment>left</alignment>
+                <alignment>center</alignment>
             </textlist>
 			
         </view>
@@ -151,16 +151,17 @@ upon CRT by Anthony - which is based upon Carbon by Eric
                 <size>0.36 0.48</size>
                 <delay>0.01</delay>
                 <default>./_inc/videos/novid.mp4</default>
-                <showSnapshotNoVideo>false</showSnapshotNoVideo>
-                <showSnapshotDelay>false</showSnapshotDelay>
+                <showSnapshotNoVideo>true</showSnapshotNoVideo>
+                <showSnapshotDelay>true</showSnapshotDelay>
             </video>
-		  
-            <image name="md_marquee">
-                <pos>0.03 0.035</pos>
+<!-- Remaked out to remove Marquee bug in video mode		  
+            
+	    <image name="md_marquee">
+                <pos>0.35 0.35</pos>
                 <origin>0 0</origin>
                 <maxSize>0.1 0.1</maxSize>
             </image>
-			
+-->			
         </view>
-   
+
     </theme>
